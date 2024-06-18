@@ -9,7 +9,7 @@ import Link from "next/link"
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading">
         Uma pequena seleção de {' '}
         <span className="text-sky-300">projetos recentes</span>
