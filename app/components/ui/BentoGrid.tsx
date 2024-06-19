@@ -144,7 +144,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="mt-5 md:mt-10 relative">
               <div className={`absolute -bottom-5 right-0`}>
                 <Lottie
                   options={{
@@ -162,7 +162,7 @@ export const BentoGridItem = ({
                 icon={<IoCopyOutline />}
                 position="left"
                 otherClasses="!bg-[161a31]"
-                handleClick={handleCopy}
+                handleClick={handleCopy}                
               />
             </div>
           )}

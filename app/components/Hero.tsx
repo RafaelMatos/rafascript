@@ -36,7 +36,7 @@ const Hero = () => {
         <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words='Transformando conceitos em experiências perfeitas'/>
         <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>Olá, sou o Rafael, um desenvolvedor Front-end</p>
 
-        <a href="#about">
+        <a href="#about" className='md:mt-10'>
           <MagicButton title="Mostrar meus trabalhos" icon={<FaLocationArrow/>} position='right'/>
         </a>
       </div>
