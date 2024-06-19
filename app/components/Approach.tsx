@@ -124,7 +124,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
     <div>
       <button className="inline-flex h-12 animate-shimmer items-center 
       justify-center rounded-md 
-      bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)]
+      bg-[linear-gradient(110deg,#000319,45%,#082f49,55%,#000319)]
       bg-[length:200%_100%] px-6 py-4 text-slate-400 transition-colors
       focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2
     focus:ring-offset-slate-50 text-2xl font-bold">
