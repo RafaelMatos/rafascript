@@ -28,7 +28,7 @@ const Approach = () => {
         <Card 
           title="Desenvolvimento & Atualização de progresso"
           description="Assim que chegarmos a um acordo sobre o plano,
-           eu coloco minha playlist lofi e mergulho na codificação.
+           eu coloco minha playlist lofi e mergulho nos códigos.
            Dos esboços iniciais ao código refinado, mantenho você atualizado
            em cada etapa do processo." 
           icon={<AceternityIcon order="Etapa 2" />}
@@ -46,7 +46,7 @@ const Approach = () => {
           title="Desenvolvimento & Lançamento"
           description="É aqui que a mágica acontece!
            Com base no design aprovado, traduzirei tudo em código funcional,
-           construindo seu site do zero." 
+           construindo seu site do zero e lhe entregando soluções." 
           icon={<AceternityIcon order="Etapa 3" />}
         >
           <CanvasRevealEffect
