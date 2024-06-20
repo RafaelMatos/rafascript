@@ -72,18 +72,18 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "FSW-Store",
+    des: "E-commerce de perifericos gamer, com interação com Stripe para processamento de pagamentos.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg","/stripe.svg"],
+    link: "https://github.com/RafaelMatos/fsw-store",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "FSW-Barber",
+    des: "Plataforma de gerenciamento de agendamentos para barbearias.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://github.com/adrianhajdin/zoom-clone",
   },
   {
@@ -204,14 +204,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    link:process.env.NEXT_PUBLIC_GITHUB,
     img: "/git.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    link:process.env.NEXT_PUBLIC_INSTAGRAM,
+    img: "/insta.svg",
   },
   {
     id: 3,
+    link:process.env.NEXT_PUBLIC_LINKEDIN,
     img: "/link.svg",
   },
 ];
