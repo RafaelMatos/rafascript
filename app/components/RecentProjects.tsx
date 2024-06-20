@@ -1,8 +1,7 @@
 import { projects } from "@/data"
 import { PinContainer } from "./ui/3d-pin"
-import { title } from "process"
 import { div } from "three/examples/jsm/nodes/Nodes.js"
-import { FaLocationArrow } from "react-icons/fa6"
+import { FaLink, FaLocationArrow } from "react-icons/fa6"
 import Link from "next/link"
 
 
@@ -18,7 +17,7 @@ const RecentProjects = () => {
         { projects.map(({id,des,iconLists,img,link,title})=> (
           <div key={id} className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center
            justify-center sm:w-[570px] w-[80vw]">
-            <PinContainer title={link} href={link}>
+            <PinContainer title={title} href={link}>
               <div className="relative flex items-center justify-center sm:w-[570px]
                w-[80vw]  overflow-hidden  h-[30vh] sm:h-[40vh]  mb-10">
                 <div className="relative w-full h-full overflow-hidden rounded-3xl bg-[#13162d]">
@@ -49,7 +48,7 @@ const RecentProjects = () => {
                 <Link href={link} target="_blank">
                 <div className="flex items-center justify-center">
                   <p className="flex lg:text-base md:text-xs text-sm text-sky-200">Acessar aplicação</p>
-                  <FaLocationArrow className="ms-3" color="#bae6fd"/>
+                  <FaLink  className="ms-3" color="#bae6fd"/>
                 </div>
                 </Link>
               </div>
